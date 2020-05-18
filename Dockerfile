@@ -12,3 +12,5 @@ ADD configure.sh /configure.sh
 RUN chmod +x /configure.sh
 ENTRYPOINT ["sh", "/configure.sh"]
 EXPOSE 8080
+EXPOSE 80
+EXPOSE 443
